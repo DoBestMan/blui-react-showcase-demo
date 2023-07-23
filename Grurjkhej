@@ -1,0 +1,9 @@
+Skip to main content
+IETF Logo Datatracker
+
+Mail recipients
+Recipient	Triggers	Template	Code
+group_mail_list	doc_added_comment, group_approved_milestones_edited, review_assignments_summarized , ballot_approved_charter, charter_external_review, interim_announced, interim_cancelled, session_request_cancelled, session_requested, session_request_not_meeting, session_scheduled	
+{% if group.list_email %}<{{ group.list_email }}>{% endif %}
+IETF IESG IAB IRTF IETF LLC IETF Trust RFC Editor IANA Privacy Statement
+About IETF Datatracker Version 11.5.0 (release - 3ea79c2)  Report a bug: GitHub Emai
